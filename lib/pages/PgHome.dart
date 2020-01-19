@@ -169,7 +169,10 @@ class PgHomeState extends BaseState<PgHome> with WidgetsBindingObserver {
       case AppLifecycleState.paused: // 应用程序不可见，后台
         print("后台");
         break;
-      case AppLifecycleState.suspending: // 申请将暂时暂停
+//      case AppLifecycleState.suspending: // 申请将暂时暂停
+//        break;
+      case AppLifecycleState.detached:
+        // TODO: Handle this case.
         break;
     }
   }

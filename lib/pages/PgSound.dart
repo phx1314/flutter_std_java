@@ -82,7 +82,7 @@ class PgSoundState extends BaseState<PgSound> {
                       color: Colors.red,
                       onPressed: () async {
                         isLY = true;
-                        path = await flutterSound.startRecorder(null);
+                        path = await flutterSound.startRecorder( );
                         path = path.startsWith('file://')
                             ? path.split('file://')[1]
                             : path;
