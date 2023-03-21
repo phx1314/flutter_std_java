@@ -26,7 +26,7 @@ dependencies:
   crypto: ^2.0.6
   banner_view: ^1.1.2
   lpinyin: ^1.0.6
-  dio: ^2.0.20
+  dio: ">=2.0.20 <6.0.0"
   flutter_cupertino_date_picker: ^0.3.0
   fluttertoast: ^3.0.1
   event_bus:  ^1.0.3
